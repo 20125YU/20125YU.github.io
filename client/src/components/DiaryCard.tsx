@@ -62,10 +62,12 @@ export default function DiaryCard({
           {excerpt}
         </p>
 
-        <Link href={`/diary/${id}`}>
-          <a className="text-primary hover:underline font-medium inline-block" data-testid="link-read-more">
-            閱讀更多 →
-          </a>
+        <Link 
+          href={`/diary/${id}`} 
+          className="text-primary hover:underline font-medium inline-block" 
+          data-testid="link-read-more"
+        >
+          閱讀更多 →
         </Link>
       </div>
     </Card>

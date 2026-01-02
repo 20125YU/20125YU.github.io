@@ -20,7 +20,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2 hover-elevate active-elevate-2 rounded-md px-3 py-2 -ml-3" data-testid="link-home">
             <Palette className="w-6 h-6 text-primary" />
-            <span className="font-serif text-xl font-medium">藝術日記</span>
+            <span className="font-serif text-xl font-medium">快樂的畫家</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-2">

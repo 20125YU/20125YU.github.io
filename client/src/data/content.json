@@ -1,0 +1,63 @@
+{
+  "diaries": [
+    {
+      "id": "1",
+      "title": "山中的寧靜時光",
+      "date": "2024年11月7日",
+      "mood": "calm",
+      "imageUrl": "/attached_assets/generated_images/Ink_wash_mountain_landscape_6401f2f2.png",
+      "excerpt": "今天在工作室創作時，窗外飄來陣陣桂花香。秋天的氣息讓人特別平靜，筆下的線條也變得更加柔和。",
+      "content": "# 山中的寧靜時光\n\n今天在工作室創作時，窗外飄來陣陣桂花香。秋天的氣息讓人特別平靜，筆下的線條也變得更加柔和。\n\n我喜歡這樣的時刻，讓心靈與畫布對話，感受每一筆帶來的喜悅與寧靜。\n\n## 創作心得\n\n今天的作品讓我特別滿意，因為：\n\n- 色調搭配和諧\n- 線條流暢自然\n- 情感表達到位\n\n希望明天也能保持這樣的創作狀態。\n"
+    },
+    {
+      "id": "2",
+      "title": "創作的喜悅",
+      "date": "2024年11月5日",
+      "mood": "happy",
+      "excerpt": "今天完成了新的系列作品，心中充滿了成就感。每一筆都是情感的流露，每一個色彩都承載著故事。",
+      "content": "# 創作的喜悅\n\n今天完成了新的系列作品，心中充滿了成就感。每一筆都是情感的流露，每一個色彩都承載著故事。\n\n創作讓我感到如此充實，也讓我更加了解自己內心的世界。\n\n## 作品特色\n\n這次的作品特別注重：\n\n1. **色彩運用**：使用溫暖的大地色系\n2. **構圖平衡**：追求視覺上的和諧\n3. **情感表達**：將內心的感受融入畫中\n"
+    }
+  ],
+  "images": [
+    {
+      "id": "1",
+      "title": "花園之夢",
+      "url": "/attached_assets/generated_images/Watercolor_garden_painting_55b5352f.png",
+      "date": "2024年11月",
+      "category": "水彩",
+      "description": "這幅水彩作品捕捉了春天花園的夢幻氛圍，使用柔和的色調營造出寧靜祥和的感覺。"
+    },
+    {
+      "id": "2",
+      "title": "溫暖的抽象",
+      "url": "/attached_assets/generated_images/Abstract_warm_tones_painting_3ddd9525.png",
+      "date": "2024年10月",
+      "category": "油畫",
+      "description": "靈感來自秋天的溫暖色調，使用大地色系營造出寧靜而溫馨的氛圍。"
+    },
+    {
+      "id": "3",
+      "title": "靜物時光",
+      "url": "/attached_assets/generated_images/Still_life_with_vases_36dc5944.png",
+      "date": "2024年9月",
+      "category": "油畫",
+      "description": "通過簡單的花瓶和乾燥花卉，探索光影與形態的關係。"
+    },
+    {
+      "id": "4",
+      "title": "暮色海洋",
+      "url": "/attached_assets/generated_images/Sunset_ocean_painting_a897a4e1.png",
+      "date": "2024年8月",
+      "category": "壓克力",
+      "description": "夕陽下的海洋，用柔和的粉色和桃色描繪出平靜的景象。"
+    },
+    {
+      "id": "5",
+      "title": "山嵐意境",
+      "url": "/attached_assets/generated_images/Ink_wash_mountain_landscape_6401f2f2.png",
+      "date": "2024年7月",
+      "category": "水墨",
+      "description": "傳統水墨畫風格，描繪雲霧繚繞的山景，意境深遠。"
+    }
+  ]
+}

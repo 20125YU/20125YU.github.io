@@ -9,7 +9,7 @@ export default function ArtworkModalExample() {
   const artwork = {
     id: "1",
     title: "溫暖的抽象",
-    imageUrl: artworkImage,
+    url: artworkImage,
     date: "2024年10月",
     category: "油畫",
     description: "這幅作品靈感來自秋天的溫暖色調，使用大地色系營造出寧靜而溫馨的氛圍。筆觸簡約而富有層次，試圖表達內心的平和與安寧。"

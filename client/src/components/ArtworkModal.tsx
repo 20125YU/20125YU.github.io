@@ -3,20 +3,16 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
+  DialogDescription,
 } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+import type { Image } from "@/types/content";
+
 interface ArtworkModalProps {
-  artwork: {
-    id: string;
-    title: string;
-    imageUrl: string;
-    date: string;
-    category?: string;
-    description?: string;
-  } | null;
+  artwork: Image | null;
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onPrevious?: () => void;
@@ -38,7 +34,7 @@ export default function ArtworkModal({
         <div className="grid md:grid-cols-[1fr,400px] gap-0 h-full">
           <div className="relative bg-muted flex items-center justify-center p-8">
             <img
-              src={artwork.imageUrl}
+              src={artwork.url}
               alt={artwork.title}
               className="max-w-full max-h-[70vh] object-contain rounded-lg"
               data-testid="img-artwork-detail"
@@ -74,6 +70,9 @@ export default function ArtworkModal({
               <DialogTitle className="font-serif text-3xl font-medium" data-testid="text-modal-title">
                 {artwork.title}
               </DialogTitle>
+              <DialogDescription className="sr-only">
+                {artwork.description || `作品：${artwork.title}`}
+              </DialogDescription>
             </DialogHeader>
 
             <div className="space-y-4">

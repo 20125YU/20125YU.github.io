@@ -2,18 +2,11 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Sparkles } from "lucide-react";
 
+import type { Diary, Image } from "@/types/content";
+
 interface TodaySectionProps {
-  latestDiary?: {
-    id: string;
-    title: string;
-    excerpt: string;
-    date: string;
-  };
-  latestArtwork?: {
-    id: string;
-    title: string;
-    imageUrl: string;
-  };
+  latestDiary?: Diary;
+  latestArtwork?: Image;
 }
 
 export default function TodaySection({ latestDiary, latestArtwork }: TodaySectionProps) {
@@ -46,7 +39,7 @@ export default function TodaySection({ latestDiary, latestArtwork }: TodaySectio
               <Badge variant="secondary" className="absolute top-4 left-4 z-10">最新作品</Badge>
               <div className="aspect-[4/3] bg-muted">
                 <img
-                  src={latestArtwork.imageUrl}
+                  src={latestArtwork.url}
                   alt={latestArtwork.title}
                   className="w-full h-full object-cover"
                 />
